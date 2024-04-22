@@ -3,7 +3,7 @@
 # Update and upgrade the system
 sudo apt update && sudo apt upgrade -y
 
-# Install required packages
+# Install required packages including Apache, PHP, GCC, and unzip. Run the following command to install them:
 sudo apt install -y wget build-essential apache2 php openssl perl make php-cli php-gd libgd-dev libapache2-mod-php libperl-dev libssl-dev daemon unzip
 
 # Create Nagios user and group
